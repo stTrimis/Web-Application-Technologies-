@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+    <h:head>
+        <title>Page 1 - Operands</title>
+    </h:head>
+    <h:body>
+        Give Two Numbers
+        <h:form>
+            <h:inputText value="#{CalculatorMB.operand1}"/>
+            <h:inputText value="#{CalculatorMB.operand2}"/>
+            <h:commandButton action="#{CalculatorMB.calculate()}" value="Submit"/>
+        </h:form>
+    </h:body>
+</html>
+
